@@ -1,6 +1,7 @@
 import '../public/assets/css/bootstrap.css';
 import '../public/assets/css/maicons.css';
 import '../public/assets/css/theme.css';
+import './Header.css';
 
 function Header(props) {
     return (

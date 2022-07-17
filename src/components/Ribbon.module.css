@@ -1,25 +1,13 @@
 .zaglavie {
     font-weight: bold;
-    width: 50%;
+    text-align: center;
     margin-left: 5rem;
-    text-align: top;
-}
-
-.zaglavie-dqsno {
-    font-weight: bold;
-    padding-top: 5rem;
-    margin-right: 8rem;
-    text-align: right;
-    max-width: 100%;
-    height: auto;
-    
 }
 
 .ramka {
-    position: relative;
     margin-top: 16px;
     margin-bottom: 16px;
-    height: 320px;
+    height: auto;
     background-color: #F6F5FC;
     color: #645F88;
     border-radius: 30px;
@@ -27,9 +15,10 @@
 }
 
 .paragraf {
-    width: 30%;
-    margin-left: 5rem;
-
+    text-align: center;
     margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    float: inline-start;
 }
 

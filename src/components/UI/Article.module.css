@@ -1,0 +1,38 @@
+.zaglavie-dolno {
+    font-weight: bold;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    max-width: 100%;
+    height: auto;
+    color: black;
+}
+
+.but button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    /* padding: 0.5rem 2rem; */
+    border-radius: 25px;
+    margin-left: 3rem;
+
+}
+
+.but button:hover,
+.but button:active {
+    background-color: white;
+    border: none;
+    color: #645F88;
+}
+
+.but button:focus {
+    border: none;
+    outline: none;
+}
+
+.list li {
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    margin-right: 5rem;
+    
+}
