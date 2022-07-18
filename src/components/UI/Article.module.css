@@ -1,26 +1,33 @@
-.zaglavie-dolno {
+ /* .zaglavie-dolno {
     font-weight: bold;
-    margin-left: 4rem;
-    margin-top: 2rem;
-    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40%;
     height: auto;
     color: black;
+    float: right;
+    clear: right;
+    display:block;
+} 
+
+ .zaglavie-dolno h3 {
+    overflow-wrap: break-word;
 }
 
-.but button {
+ .but button {
     font: inherit;
     cursor: pointer;
     background-color: transparent;
     border: none;
-    /* padding: 0.5rem 2rem; */
+     padding: 0.5rem 2rem; 
     border-radius: 25px;
     margin-left: 3rem;
 
-}
+} 
 
 .but button:hover,
 .but button:active {
-    background-color: white;
+     background-color: white; 
     border: none;
     color: #645F88;
 }
@@ -35,4 +42,83 @@
     border-bottom: 1px solid black;
     margin-right: 5rem;
     
+    max-width: auto;
+    margin-left: auto;
+    display: block;
+    float: right;
+    clear: right;
+    
 }
+
+.zaglavie-dolno p {
+    text-align: center;
+    max-width: 50%;
+}
+
+.list li h3 {
+    position: static;
+}  */
+
+ .second-title {
+    border-radius: inherit;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    margin-top: 2px;
+ }
+
+ .second-title h4 {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.26em;
+    color: inherit;
+    display: block;
+ }
+
+ .second-title a {
+    display: block;
+    align-items: center;
+    max-width: 100%;
+    padding: 0.93em 0;
+    color: inherit;
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+    border-bottom: 1px solid black;
+    box-shadow: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .3s;
+    margin: 0;
+    position: relative;
+    line-height: 1.5em;
+    text-align: start;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.26em;
+    overflow-wrap: break-word;
+    margin-left: 70ex;
+    margin-right: 10em;
+
+ }
+
+ .second-title p {
+    
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 100ex;
+    margin-right: 10em;
+ }
+
+ .but {
+    margin-left: 13em;
+    
+    display: block;
+ }
+
+ 

@@ -5,7 +5,6 @@ function Article(props) {
     const [isVisible, setIsVisible] = useState(false);
     const [isClicked, setIsClicked] = useState(false);
 
-
     function acordionHandler(e) {
         setIsClicked(true);
         if (!isVisible && isClicked) {
@@ -14,18 +13,16 @@ function Article(props) {
 
             setIsVisible(false);
         }
-
-
     };
 
     const buttonHandler = !isVisible && isClicked ? '-' : '+';
 
     return (
-        <li className={styles['zaglavie-dolno']}>
-            <h3>{props.title}<span className={styles.but}>
-                <button onClick={acordionHandler} className={styles.but}>{buttonHandler}</button></span></h3>
+        <div className={styles['second-title']}>
+            <h4><a className={styles.but} onClick={acordionHandler}>{props.title}
+                <span className={styles.but}>{buttonHandler}</span></a></h4>
             {!isVisible && isClicked && <p>{props.description}</p>}
-        </li>
+        </div>
     );
 };
 

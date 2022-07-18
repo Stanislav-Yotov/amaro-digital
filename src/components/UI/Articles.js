@@ -1,4 +1,4 @@
-import styles from './Article.module.css';
+
 import Article from './Article';
 
 function Articles(props) {
@@ -43,11 +43,11 @@ function Articles(props) {
     )
 
     return (
-        <ul className={styles.list}>
+        
             <div>
                 {articlesList}
             </div>
-        </ul>
+        
     );
 };
 
