@@ -2,9 +2,11 @@ import { Fragment } from 'react';
 import Header from './components/Header';
 import Body from './components/Body';
 import Services from './components/Services';
-import Slider from './components/Slider';
+import Slider from './components/slider/Slider';
 import Recomendations from './components/Recomendations';
 import Ribbon from './components/Ribbon';
+import Blog from './components/Blog';
+import { SliderData } from './components/slider/SliderData';
 
 function App() {
   return (
@@ -12,9 +14,10 @@ function App() {
       <Header />
       <Body />
       <Services />
-      <Slider />
+      <Slider slides={SliderData} />
       <Recomendations />
       <Ribbon />
+      <Blog />
     </Fragment>
   );
 }

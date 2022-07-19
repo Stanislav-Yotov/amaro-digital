@@ -11,7 +11,7 @@ function Services(props) {
             <h3 style={{textAlign: 'center', marginBottom: '3rem'}}>Discover our services</h3>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-lg-4" style={{marginLeft: '24em'}}>
                             <div className="card-service wow fadeInUp">
                                 <div className="header">
                                     <img src={svgOne} alt="" />
@@ -24,7 +24,7 @@ function Services(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        {/* <div className="col-lg-4">
                             <div className="card-service wow fadeInUp">
                                 <div className="header">
                                     <img src={svgTwo} alt="" />
@@ -47,7 +47,7 @@ function Services(props) {
                                     <a href="service.html" className="btn btn-primary">Read More</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
