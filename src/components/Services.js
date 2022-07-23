@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import svgOne from '../public/assets/img/services/service-1.svg';
-import svgTwo from '../public/assets/img/services/service-2.svg';
-import svgThree from '../public/assets/img/services/service-3.svg';
+// import svgTwo from '../public/assets/img/services/service-2.svg';
+// import svgThree from '../public/assets/img/services/service-3.svg';
 
 
 function Services(props) {

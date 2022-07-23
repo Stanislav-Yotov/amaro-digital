@@ -14,7 +14,7 @@ function App() {
       <Header />
       <Body />
       <Services />
-      <Slider slides={SliderData} />
+      <Slider slides={SliderData} autoPlay={2} />
       <Recomendations />
       <Ribbon />
       <Blog />
