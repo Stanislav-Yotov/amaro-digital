@@ -16,7 +16,7 @@ function Slider(props) {
 
         const interval = setInterval(play, props.autoPlay * 1000)
         return () => clearInterval(interval)
-    }, [])
+    }, [props.autoPlay])
 
     function getWidth() {
         return window.innerWidth;
