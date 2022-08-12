@@ -1,0 +1,16 @@
+.carousel img {
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    display: block;
+    margin-bottom: 2em; 
+    align-items: center;
+    border: none;
+    object-fit:fill;
+    
+}
+
+.carousel {
+    transition: width 2s;
+    transition-timing-function: linear;
+}
