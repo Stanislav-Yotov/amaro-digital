@@ -4,7 +4,7 @@ import '../public/assets/css/theme.css';
 import './Body.css';
 import banner from '../public/assets/img/banner_image_1.svg';
 import { Fragment } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 function Body(props) {
   return (
@@ -23,7 +23,14 @@ function Body(props) {
             </div>
           </div>
         </div>
-        <Link to="/amaro" className="btn-scroll" data-role="smoothscroll"><span className="mai-arrow-down"></span></Link>
+        <Link 
+        to="contact"
+        spy={true}
+        hashSpy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+         className="btn-scroll" data-role="smoothscroll"><span className="mai-arrow-down"></span></Link>
       </div>
     {/* </div> */}
     </Fragment>

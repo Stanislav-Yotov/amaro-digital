@@ -9,7 +9,7 @@ function Carousel(props) {
         <div className={styles.carousel}>
             <Rerousel itemRef={customerRef} interval={500}>
             {props.slides.map((imgSrc, index) => (
-                <img src={imgSrc.src} key={index + 1} alt='' ref={customerRef} />
+                <img src={imgSrc.src} key={index} alt='' ref={customerRef} />
             ))}
             </Rerousel>
         </div>

@@ -11,6 +11,8 @@
 }
 
 .carousel {
-    transition: width 2s;
-    transition-timing-function: linear;
+    transition-delay: 0s, 0s, 0s, 0s, 0s;
+    transition-duration: 0.3s, 0.3s, 0.3s, 0.3s, 0.3s;
+    transition-timing-function: ease, ease, ease, ease, ease;
+    color: rgb(93, 99, 113)
 }

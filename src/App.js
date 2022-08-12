@@ -8,6 +8,7 @@ import Blog from './components/Blog';
 import { SliderData } from './components/slider/SliderData';
 import { Routes, Route } from 'react-router-dom';
 import Carousel from './components/slider/Carousel';
+import ContactForm from './components/Form/ContactForm';
 
 function App() {
 
@@ -22,12 +23,13 @@ function App() {
       <Recomendations />
       <Ribbon />
       <Blog />
-      <Routes>
-        <Route path='/' element={Header} />
+      {/* <Routes>
+        <Route path='/' element={<Header />} />
         <Route path='/services' element={Services} />
         <Route path='/blog' element={Blog} />
-        <Route path='/amaro' element={Ribbon} />
-      </Routes>
+        <Route path='/amaro' element={<Ribbon />} />
+      </Routes> */}
+      <ContactForm />
     </Fragment>
 
   );

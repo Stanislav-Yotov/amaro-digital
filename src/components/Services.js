@@ -7,7 +7,7 @@ import svgThree from '../public/assets/img/services/service-3.svg';
 function Services(props) {
     return (
         <Fragment>
-            <div className="page-section" id="services-wrapper">
+            <div className="page-section" id="services">
             <h3 style={{textAlign: 'center', marginBottom: '3rem'}}>Discover our services</h3>
                 <div className="container">
                     <div className="row">

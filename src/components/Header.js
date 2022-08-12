@@ -10,8 +10,9 @@ function Header(props) {
       <nav className="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="300">
         <div className="container">
           <Link
-            to='ribbon-wrapper'
+            to='amaro'
             spy={true}
+            hashSpy={true}
             smooth={true}
             offset={-70}
             duration={500}
@@ -33,8 +34,9 @@ function Header(props) {
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  to="services-wrapper"
+                  to="services"
                   spy={true}
+                  hashSpy={true}
                   smooth={true}
                   offset={-70}
                   duration={500}>Services</Link>
@@ -42,14 +44,21 @@ function Header(props) {
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  to="blog-wrapper"
+                  to="blog"
                   spy={true}
+                  hashSpy={true}
                   smooth={true}
                   offset={-70}
                   duration={500}>Blog</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/contact">Contact</Link>
+                <Link className="nav-link" 
+                  to="contact"
+                  spy={true}
+                  hashSpy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}>Contact</Link>
               </li>
               {/* <li className="nav-item" style={{marginLeft: '5rem'}}>
           <a className="btn btn-primary ml-lg-2" href="#">Let's Chat</a>

@@ -4,7 +4,7 @@ import '../public/assets/css/theme.css';
 
 function Blog(props) {
     return (
-        <div className="page-section" id='blog-wrapper'>
+        <div className="page-section" id='blog'>
             <div className="container">
                 <div className="row">
                     <div className="col-sm-10">
