@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import styles from './ContactForm.module.css';
+const emailPattern = /^([a-z0-9+._/&!][-a-z0-9+._/&!]*)@(([a-z0-9][-a-z0-9]*.)([-a-z0-9]+.)*[a-z]{2,})$/ig;
 
 function ContactForm(props) {
     function formSubmissionHandler(e) {
@@ -15,7 +16,7 @@ function ContactForm(props) {
                     <div className={styles['row-form-group']}>
                         <div className={styles['first-name']}>
                             <label className="text-black" htmlFor="fullName">Your Name</label>
-                            <input type="text" id="fullName" className="form-control" placeholder="Full Name"/>
+                            <input type="text" id="fullName" className="form-control" placeholder="Full Name" />
                         </div>
                     </div>
 
@@ -35,7 +36,7 @@ function ContactForm(props) {
                         <div className="col-md-12">
                             <button className="btn btn-primary">Send Message</button>
                         </div>
-                    </div> 
+                    </div>
                 </form>
             </div>
         </Fragment>

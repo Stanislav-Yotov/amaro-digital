@@ -1,12 +1,13 @@
 import '../public/assets/css/bootstrap.css';
 import '../public/assets/css/maicons.css';
 import '../public/assets/css/theme.css';
+import styles from './Blog.module.css';
 
 function Blog(props) {
     return (
-        <div className="page-section" id='blog'>
-            <div className="container">
-                <div className="row">
+        <div className={styles['page-section']} >
+            <div className="container" >
+                <div className="row" id='blog'>
                     <div className="col-sm-10">
                         <form action="/blog" className="form-search-blog">
                             <div className="input-group">

@@ -11,8 +11,6 @@ function Header(props) {
         <div className="container">
           <Link
             to='amaro'
-            spy={true}
-            hashSpy={true}
             smooth={true}
             offset={-70}
             duration={500}
@@ -28,15 +26,10 @@ function Header(props) {
               <li className="nav-item">
                 <Link className="nav-link" to="/">Home</Link>
               </li>
-              {/* <li className="nav-item">
-          <a className="nav-link" href="about.html">About</a>
-        </li> */}
               <li className="nav-item">
                 <Link
                   className="nav-link"
                   to="services"
-                  spy={true}
-                  hashSpy={true}
                   smooth={true}
                   offset={-70}
                   duration={500}>Services</Link>
@@ -45,8 +38,6 @@ function Header(props) {
                 <Link
                   className="nav-link"
                   to="blog"
-                  spy={true}
-                  hashSpy={true}
                   smooth={true}
                   offset={-70}
                   duration={500}>Blog</Link>
@@ -54,8 +45,6 @@ function Header(props) {
               <li className="nav-item">
                 <Link className="nav-link" 
                   to="contact"
-                  spy={true}
-                  hashSpy={true}
                   smooth={true}
                   offset={-70}
                   duration={500}>Contact</Link>
