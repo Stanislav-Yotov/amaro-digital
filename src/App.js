@@ -6,12 +6,11 @@ import Recomendations from './components/Recomendations';
 import Ribbon from './components/Ribbon';
 import Blog from './components/Blog';
 import { SliderData } from './components/slider/SliderData';
-import { Routes, Route } from 'react-router-dom';
 import Carousel from './components/slider/Carousel';
 import ContactForm from './components/Form/ContactForm';
 
 function App() {
-
+ 
   
 
   return (

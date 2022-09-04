@@ -23,7 +23,7 @@ function Body(props) {
           </div>
           <div className="col-md-6 py-5 wow zoomIn">
             <div className="img-fluid text-center">
-              <img src={banner} />
+              <img src={banner} alt="" />
             </div>
           </div>
         </div>
