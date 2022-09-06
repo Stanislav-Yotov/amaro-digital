@@ -2,7 +2,7 @@
 /seogram
 /.pnp
 .pnp.js
-
+/ContactForm.js
 
 # testing
 /coverage

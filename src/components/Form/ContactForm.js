@@ -15,7 +15,7 @@ function ContactForm(props) {
     function formSubmissionHandler(e) {
         e.preventDefault();
 
-        emailjs.sendForm()
+        emailjs.sendForm('service_3jmk1vp', 'template_gu7923l', form.current, 'Vl-iOUeYduNbDYTy8')
             .then((result) => {
                 alert("Message Sent Successfully");
                 console.log(result.text);

@@ -1,6 +1,7 @@
 import '../public/assets/css/bootstrap.css';
 import '../public/assets/css/maicons.css';
 import '../public/assets/css/theme.css';
+import '../public/assets/vendor/animate/animate.css';
 import './Body.css';
 import banner from '../public/assets/img/banner_image_1.svg';
 import { Fragment } from 'react';
