@@ -1,7 +1,7 @@
 import { Fragment, useRef, useState } from "react";
 import styles from './ContactForm.module.css';
 import emailjs from '@emailjs/browser';
-const emailPattern = /^([a-z0-9+._/&!][-a-z0-9+._/&!]*)@(([a-z0-9][-a-z0-9]*.)([-a-z0-9]+.)*[a-z]{2,})$/ig;
+//const emailPattern = /^([a-z0-9+._/&!][-a-z0-9+._/&!]*)@(([a-z0-9][-a-z0-9]*.)([-a-z0-9]+.)*[a-z]{2,})$/ig;
 
 function ContactForm(props) {
 

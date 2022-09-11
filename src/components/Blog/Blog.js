@@ -6,7 +6,9 @@ import styles from './Blog.module.css';
 import { useInView } from 'react-intersection-observer';
 
 function Blog(props) {
-    const { ref, inView } = useInView();
+    const { ref, inView } = useInView({
+        threshold: 0.5
+    });
 
     return (
         <div className={`${styles.rowFive} ${inView ? styles.pageAnimation : ''}`} ref={ref} >
